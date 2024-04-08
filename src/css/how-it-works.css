@@ -1,3 +1,8 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
 .hiw {
   background-color: #ae1332;
   display: flex;
@@ -23,4 +28,122 @@
   text-transform: uppercase;
   text-align: center;
   color: #fff;
+  text-shadow: 0 4px 70px 0 rgba(0, 0, 0, 0.1);
+  max-width: 335px;
+  margin: 0;
+}
+.hiw-paragraf {
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.28571;
+  letter-spacing: -0.04em;
+  text-align: center;
+  color: #fff;
+  text-shadow: 0 4px 70px 0 rgba(0, 0, 0, 0.1);
+  max-width: 335px;
+  margin: 0;
+}
+.hiw-list-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+  min-width: 335px;
+}
+.hiw-list {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+  padding: 0;
+  margin: 0;
+}
+.hiw-list-item {
+  width: 335px;
+  height: 112px;
+  border-radius: 20px;
+  width: 335px;
+  height: 112px;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: row;
+  gap: 14px;
+  padding: 20px;
+}
+.hiw-first-step {
+  border-radius: 200px;
+  width: 136px;
+  height: 48px;
+  background-color: #ae1332;
+  padding: 12px 31.5px;
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.33333;
+  letter-spacing: -0.04em;
+  color: #fff;
+}
+.hiw-second-step {
+  border-radius: 200px;
+  width: 136px;
+  height: 48px;
+  background-color: #a1c864;
+  padding: 12px 18px;
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.33333;
+  letter-spacing: -0.04em;
+  color: #fff;
+}
+.hiw-third-step {
+  border-radius: 200px;
+  width: 136px;
+  height: 48px;
+  background-color: #f5ce13;
+  padding: 12px 28px;
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.33333;
+  letter-spacing: -0.04em;
+  color: #fff;
+}
+.hiw-list-paragraf {
+  width: 145px;
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.28571;
+  letter-spacing: -0.04em;
+  color: #000;
+  text-shadow: 0 4px 70px 0 rgba(0, 0, 0, 0.1);
+}
+@media (min-width: 768px) {
+  .hiw-title {
+    max-width: 624px;
+  }
+  .hiw-paragraf {
+    max-width: 509px;
+  }
+  .hiw-list-item {
+    width: 389px;
+    height: 128px;
+  }
+  .hiw-list-paragraf {
+    width: 199px;
+  }
+}
+@media (min-width: 1280px) {
+  .hiw-list {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+  }
 }
