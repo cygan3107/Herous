@@ -75,3 +75,34 @@
 .your-order-paragraph {
   margin: 0;
 }
+.your-order-form {
+  margin-top: 40px;
+}
+.your-form-div {
+  height: 46px;
+  border-radius: 100px;
+  border-color: #000000;
+  margin-bottom: 14px;
+}
+
+.your-order-input {
+  width: 90%;
+  border: 1px solid rgba(46, 47, 66, 0.4);
+  height: 100%;
+  border-radius: 100px;
+  background-color: transparent;
+  outline: transparent;
+  padding: 0;
+  padding-left: 24px;
+}
+.your-order-textarea {
+  width: 90%;
+  border: 1px solid rgba(46, 47, 66, 0.4);
+  height: 132px;
+  border-radius: 20px;
+  background-color: transparent;
+  outline: transparent;
+  padding: 0;
+  padding-left: 24px;
+  resize: none;
+}
