@@ -22,6 +22,11 @@
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 20px;
 }
+.your-order-area {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
 .your-order-heading {
   font-family: 'DM Sans', sans-serif;
   font-weight: 500;
@@ -43,6 +48,7 @@
   line-height: 1.33333;
   letter-spacing: -0.04em;
   color: #fff;
+  margin-bottom: 12px;
 }
 .your-order-box {
   border-radius: 20px;
@@ -125,4 +131,22 @@
   padding: 0;
   padding-left: 24px;
   resize: none;
+}
+.your-order-btn-area {
+  margin-top: 20px;
+}
+.your-order-btn {
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.28571;
+  letter-spacing: -0.04em;
+  text-transform: capitalize;
+  color: #fff;
+  border-radius: 100px;
+  padding: 12px 24px;
+  width: 92px;
+  height: 42px;
+  background-color: #9dc162;
+  border: 0;
 }
