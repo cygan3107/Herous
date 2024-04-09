@@ -50,7 +50,8 @@
   height: 119px;
   display: flex;
   gap: 0;
-  justify-content: center;
+  justify-content: space-around;
+  align-items: flex-start;
 }
 .box-one {
   background-color: #f8766b;
@@ -60,6 +61,13 @@
 }
 .box-three {
   background-color: #9dc262;
+}
+.your-box-div {
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.your-order-div-img {
+  margin-top: 16px;
 }
 .your-order-paragraph {
   font-family: 'DM Sans', sans-serif;
@@ -71,6 +79,13 @@
 }
 .your-box-head {
   margin: 0;
+
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.33333;
+  letter-spacing: -0.04em;
+  color: #fff;
 }
 .your-order-paragraph {
   margin: 0;
@@ -84,7 +99,12 @@
   border-color: #000000;
   margin-bottom: 14px;
 }
-
+.your-form-div-second {
+  height: 132px;
+  border-radius: 100px;
+  border-color: #000000;
+  margin-bottom: 14px;
+}
 .your-order-input {
   width: 90%;
   border: 1px solid rgba(46, 47, 66, 0.4);
