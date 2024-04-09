@@ -107,11 +107,6 @@
   color: #000;
   text-shadow: 0 4px 70px 0 rgba(0, 0, 0, 0.1);
 }
-.hiw-gif {
-  border-radius: 20px;
-  width: 335px;
-  height: 476px;
-}
 @media (min-width: 768px) {
   .hiw-title {
     max-width: 624px;
@@ -126,21 +121,11 @@
   .hiw-list-paragraf {
     width: 199px;
   }
-  .hiw-gif {
-    border-radius: 20px;
-    width: 704px;
-    height: 476px;
-  }
 }
 @media (min-width: 1280px) {
   .hiw-list {
     display: flex;
     flex-direction: row;
     gap: 24px;
-  }
-  .hiw-gif {
-    border-radius: 20px;
-    width: 860px;
-    height: 476px;
   }
 }
