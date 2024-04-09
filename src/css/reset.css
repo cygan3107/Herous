@@ -33,3 +33,82 @@ img {
   max-width: 100%;
   height: auto;
 }
+body {
+  box-sizing: border-box;
+
+  font-family: var(--main-font-family);
+  font-size: var(--main-font-size);
+  font-weight: var(--main-font-weight);
+  color: var(--main-color);
+  background-color: var(--main-background-color);
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.container {
+  padding: 0 20px;
+  margin: 0px auto;
+}
+
+@media screen and (max-width: 374px) {
+  .container {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 375px) {
+  .container {
+    width: 375px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    width: 768px;
+    padding: 0 32px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .container {
+    width: 1280px;
+  }
+}
+
+.section {
+  padding-top: 80px;
+}
+
+@media screen and (min-width: 768px) {
+  .section {
+    padding-top: 144px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .section {
+    padding-top: 150px;
+  }
+}
+/*.backdrop.active {
+  opacity: 1;
+  visibility: visible;
+}
+
+.modal.active {
+  transform: translate(-50%, -50%) scale(1);
+  opacity: 1;
+  visibility: visible;
+}*/
