@@ -9,30 +9,30 @@ body {
   color: #fff;
   background-color: #ae1332;
 }
-.h-container {
+.container {
   margin: 0px auto;
 }
 
 @media screen and (max-width: 374px) {
-  .h-container {
+  .container {
     width: 100%;
   }
 }
 
 @media screen and (min-width: 375px) {
-  .h-container {
+  .container {
     max-width: 375px;
   }
 }
 
 @media screen and (min-width: 768px) {
-  .h-container {
+  .container {
     max-width: 768px;
   }
 }
 
 @media screen and (min-width: 1280px) {
-  .h-container {
+  .container {
     max-width: 1280px;
   }
 }
