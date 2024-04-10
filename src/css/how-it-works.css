@@ -56,7 +56,7 @@
   margin: 0;
 }
 .hiw-list-container {
-  max-width: 335px;
+  width: 335px;
   height: 112px;
   border-radius: 20px;
   background-color: #fff;
@@ -109,19 +109,25 @@
 }
 .hiw-gif {
   border-radius: 20px;
-  max-width: 335px;
-  max-height: 476px;
+  width: 335px;
+  height: 476px;
   overflow: hidden;
 }
 .hiw-gif-img {
-  max-width: 100%;
+  width: 100%;
 }
 @media (min-width: 768px) {
+  .hiw-list {
+    width: 389px;
+  }
   .hiw-title {
     max-width: 624px;
   }
   .hiw-paragraf {
     max-width: 509px;
+  }
+  .hiw-list-item {
+    width: 389px;
   }
   .hiw-list-container {
     width: 389px;
@@ -134,15 +140,22 @@
     width: 704px;
     height: 476px;
   }
+  .hiw-gif-img {
+    width: 100%;
+  }
 }
 @media (min-width: 1280px) {
   .hiw-list {
     display: flex;
     flex-direction: row;
     gap: 24px;
+    width: 389px;
   }
   .hiw-gif {
     width: 860px;
     height: 476px;
+  }
+  .hiw-gif-img {
+    max-width: 100%;
   }
 }
