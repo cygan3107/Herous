@@ -18,6 +18,7 @@
   flex-direction: column;
   gap: 14px;
   color: #fff;
+  margin-top: 80px;
 }
 .hiw-title {
   font-family: 'DM Sans', sans-serif;
@@ -117,6 +118,9 @@
   width: 100%;
 }
 @media (min-width: 768px) {
+  .hiw-order {
+    margin-top: 137px;
+  }
   .hiw-list {
     width: 389px;
   }
@@ -145,6 +149,9 @@
   }
 }
 @media (min-width: 1280px) {
+  .hiw-order {
+    margin-top: 150px;
+  }
   .hiw-list {
     display: flex;
     flex-direction: row;
