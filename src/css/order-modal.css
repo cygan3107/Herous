@@ -11,7 +11,7 @@
 
 .your-order-div {
   max-width: 335px;
-  height: 903px;
+  height: 883px;
   background-color: #ffff;
   position: absolute;
   top: 50%;
@@ -200,13 +200,18 @@
 .svg-for-your-check {
   position: relative;
 }
+
 @media (min-width: 768px) {
   .your-order-heading {
     margin-top: 20px;
   }
   .your-order-div {
-    min-width: 704px;
-    min-height: 853px;
+    max-width: 704px;
+    max-height: 773px;
+    background-image: url(../img/banana-phone1.png);
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
+    padding: 40px 40px;
   }
   .your-order-list {
     display: flex;
@@ -226,5 +231,9 @@
   }
   .your-img-size {
     height: 148px;
+  }
+  .your-order-form {
+    width: 360px;
+    height: 331px;
   }
 }
