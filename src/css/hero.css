@@ -359,9 +359,6 @@ source {
     align-self: end;
   }
 }
-.hero-card {
-  text-align: center;
-}
 
 .hero-card-img {
   z-index: 2;
@@ -373,6 +370,8 @@ source {
   min-height: 387px;
   background-color: #a4cb66;
   border-radius: 500px;
+  padding-left: 24px;
+  padding-right: 25px;
 }
 
 .hero-card-watermelon > .oval {
@@ -389,6 +388,8 @@ source {
   min-height: 387px;
   background-color: #f5ce13;
   border-radius: 500px;
+  padding-left: 43px;
+  padding-right: 44px;
 }
 
 .hero-card-strawberry > .oval-strawberries {
