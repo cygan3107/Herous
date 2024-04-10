@@ -1,0 +1,36 @@
+.pop-up {
+  border-radius: 20px;
+  width: 335px;
+  height: 426px;
+  background-color: #e03f5e;
+}
+.pop-up-btn {
+  background-color: #e03f5e;
+  border: none;
+  margin-top: 20px;
+  margin-right: 20px;
+}
+.pop-up-header {
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 1;
+  letter-spacing: -0.04em;
+  text-transform: uppercase;
+  color: #fff;
+  text-shadow: 0 4px 70px 0 rgba(0, 0, 0, 0.1);
+}
+.pop-up-p {
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.28571;
+  letter-spacing: -0.04em;
+  text-align: center;
+  color: #fff;
+  text-shadow: 0 4px 70px 0 rgba(0, 0, 0, 0.1);
+}
+.pop-btn-area {
+  display: flex;
+  flex-direction: row-reverse;
+}
