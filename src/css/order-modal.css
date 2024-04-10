@@ -237,3 +237,33 @@
     height: 331px;
   }
 }
+@media (min-width: 1280px) {
+  .your-order-div {
+    min-width: 811px;
+    min-height: 831px;
+    background-image: url(../img/banana-d-1.png);
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
+    background-size: 471px 458px;
+    padding: 40px 40px;
+  }
+  .your-order-form {
+    width: 360px;
+    height: 331px;
+  }
+  .your-order-list {
+    width: 811px;
+    height: 308px;
+  }
+  .your-order-list-child {
+    width: 257px;
+    height: 308px;
+  }
+  .your-order-box {
+    width: 257px;
+    height: 308px;
+  }
+  .your-img-size {
+    height: 196px;
+  }
+}
