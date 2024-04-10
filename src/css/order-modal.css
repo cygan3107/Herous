@@ -197,3 +197,30 @@
   margin-top: 14px;
   margin-right: 14px;
 }
+.svg-for-your-check {
+  position: relative;
+}
+@media (min-width: 768px) {
+  .your-order-div {
+    min-width: 704px;
+    min-height: 853px;
+  }
+  .your-order-list {
+    display: flex;
+    gap: 12px;
+    width: 624px;
+    height: 250px;
+  }
+  .your-order-list-child {
+    min-width: 200px;
+  }
+  .your-order-box {
+    display: flex;
+    flex-direction: column-reverse;
+
+    width: 200px;
+    height: 250px;
+  }
+  .your-order-div-img {
+  }
+}
