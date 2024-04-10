@@ -1,14 +1,33 @@
 <div class="on-off">
   <div class="your-order-div">
     <div class="your-order-area">
-      <h2 class="your-order-heading">Your Order</h2>
-
       <button type="button" class="your-order-x">
-        <svg class="icon-your-order" width="24" height="24">
-          <use href="./img/svg-x-modal.svg#icon-x" />
+        <svg
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M18 6L6 18"
+            stroke="#AE1332"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+          <path
+            d="M6 6L18 18"
+            stroke="#AE1332"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
         </svg>
       </button>
+      <h2 class="your-order-heading">Your Order</h2>
     </div>
+
     <ul class="your-order-list">
       <li class="your-order-list-child">
         <div class="your-order-box box-one">
@@ -25,7 +44,9 @@
               height="95"
             />
           </div>
-          <input type="checkbox" class="your-order-checkbox" />
+          <span class="checkbox-container">
+            <input type="checkbox" class="your-order-checkbox" />
+          </span>
         </div>
       </li>
       <li class="your-order-list-child">
@@ -43,7 +64,9 @@
               height="95"
             />
           </div>
-          <input type="checkbox" class="your-order-checkbox" />
+          <span class="checkbox-container">
+            <input type="checkbox" class="your-order-checkbox" />
+          </span>
         </div>
       </li>
       <li class="your-order-list-child">
@@ -61,7 +84,9 @@
               height="95"
             />
           </div>
-          <input type="checkbox" class="your-order-checkbox" />
+          <span class="checkbox-container">
+            <input type="checkbox" class="your-order-checkbox" />
+          </span>
         </div>
       </li>
     </ul>
@@ -75,6 +100,7 @@
           type="text"
           id="user-name"
           name="user-name"
+          pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
         />
       </div>
       <div class="your-form-div">
@@ -85,6 +111,7 @@
           type="email"
           id="user-email"
           name="user-name"
+          pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
         />
       </div>
       <div class="your-form-div">
@@ -95,6 +122,7 @@
           type="text"
           id="user-card"
           name="user-card"
+          pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
         />
       </div>
       <div class="your-form-div-second">
@@ -104,13 +132,12 @@
           placeholder="Enter comment.."
           id="user-comment"
           name="user-comment"
+          pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
         >
         </textarea>
       </div>
 
-      <div class="your-order-btn-area">
-        <button type="submit" class="your-order-btn">Submit</button>
-      </div>
+      <button type="submit" class="your-order-btn">Submit</button>
     </form>
   </div>
 </div>
