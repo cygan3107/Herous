@@ -201,6 +201,9 @@
   position: relative;
 }
 @media (min-width: 768px) {
+  .your-order-heading {
+    margin-top: 20px;
+  }
   .your-order-div {
     min-width: 704px;
     min-height: 853px;
@@ -221,6 +224,7 @@
     width: 200px;
     height: 250px;
   }
-  .your-order-div-img {
+  .your-img-size {
+    height: 148px;
   }
 }
