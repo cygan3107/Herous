@@ -1,0 +1,139 @@
+body {
+  background-color: #db4f4b;
+}
+.contacts_container {
+  max-width: 375px;
+  padding: 0 20px;
+  margin: auto;
+}
+img {
+  display: block;
+}
+.header {
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 100%;
+  letter-spacing: -0.04em;
+  text-shadow: 0px 4px 70px rgba(0, 0, 0, 0.1);
+  text-transform: uppercase;
+  color: #ffffff;
+  text-align: center;
+  margin: 0;
+  width: 335px;
+  height: 96px;
+  margin-bottom: 6px;
+  position: absolute;
+  top: 0px;
+}
+.fruits_contacts {
+  background-color: #db4f4b;
+  margin-top: 52px;
+}
+.blueberry_img {
+  display: none;
+}
+.img_contacts {
+  width: 335px;
+  height: 476px;
+  border-radius: 20px;
+}
+.contacts_p {
+  display: none;
+}
+@media (min-width: 768px) {
+  .contacts_container {
+    max-width: 768px;
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+  .header {
+    font-size: 54px;
+    margin: 0;
+    width: 648px;
+    height: auto;
+    margin-bottom: 5px;
+    margin-left: 60px;
+    margin-right: 60px;
+  }
+  .fruits_contacts {
+    background-color: #db4f4b;
+    margin-top: 52px;
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    justify-content: center;
+    padding-top: 28px;
+  }
+  .blueberry_img {
+    display: block;
+  }
+  .contacts_input {
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    justify-content: center;
+    margin-top: 80px;
+    max-height: 182px;
+  }
+  .contacts_p {
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 129%;
+    letter-spacing: -0.04em;
+    text-shadow: 0px 4px 70px rgba(0, 0, 0, 0.1);
+    color: #ffffff;
+    text-align: center;
+    display: block;
+    margin: auto;
+    width: 492px;
+    height: 54px;
+    margin-bottom: 6px;
+  }
+  .send_form {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0 auto;
+  }
+  .send_button {
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 130%;
+    letter-spacing: 0.04em;
+    color: white;
+    background-color: #9dc162;
+    border: none;
+    border-radius: 50px;
+    min-width: 102px;
+    height: 48px;
+    position: absolute;
+    right: 238px;
+  }
+  .send {
+    height: 48px;
+    width: 292px;
+    border: 1px solid #d9d9d9;
+    background-color: #db4f4b;
+    font-size: 14px;
+    line-height: 2;
+    letter-spacing: 0.04em;
+    padding-left: 16px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 50px;
+    color: #d9d9d9;
+    flex-grow: 2;
+    position: relative;
+    display: inline-block;
+  }
+}
+
+@media (min-width: 1280px) {
+  .contacts_container {
+    max-width: 1280px;
+    padding: 0 20px;
+    margin: auto;
+  }
+}
