@@ -117,7 +117,6 @@
 }
 .your-box-head {
   margin: 0;
-
   font-family: 'DM Sans', sans-serif;
   font-weight: 700;
   font-size: 18px;
@@ -249,7 +248,6 @@
   .your-order-box {
     display: flex;
     flex-direction: column-reverse;
-    padding-top: 14px;
 
     width: 200px;
     height: 250px;
@@ -304,5 +302,8 @@
   }
   .your-img-size {
     height: 196px;
+  }
+  .checkbox-container {
+    margin-left: 223px;
   }
 }
