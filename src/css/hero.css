@@ -39,7 +39,7 @@ source {
     url(../img/mobilebananas.png);
   background-repeat: no-repeat;
   background-size: 56px 56px, 66px 44px;
-  background-position: top 56px right 0px, top 116px left -7px;
+  background-position: top 56px right 20px, top 116px left 13px;
 }
 
 @media (-webkit-min-device-pixel-ratio: 2),
@@ -56,7 +56,7 @@ source {
     background-image: url(../img/tabletstrawberries.png),
       url(../img/tabletbananas.png);
     background-size: 108px 108px, 132px 90px;
-    background-position: top 54px right -5px, top 169px left -5px;
+    background-position: top 54px right 37px, top 169px left 27px;
   }
 }
 
@@ -76,7 +76,7 @@ source {
     background-image: url(../img/desktopstrawberries.png),
       url(../img/desktopbananas.png);
     background-size: 120px 120px, 183px 125px;
-    background-position: top 39px right 191px, top 191px left 181px;
+    background-position: top 39px right 223px, top 191px left 213px;
   }
 }
 
@@ -359,9 +359,6 @@ source {
     align-self: end;
   }
 }
-.hero-card {
-  text-align: center;
-}
 
 .hero-card-img {
   z-index: 2;
@@ -373,6 +370,8 @@ source {
   min-height: 387px;
   background-color: #a4cb66;
   border-radius: 500px;
+  padding-left: 24px;
+  padding-right: 25px;
 }
 
 .hero-card-watermelon > .oval {
@@ -389,6 +388,8 @@ source {
   min-height: 387px;
   background-color: #f5ce13;
   border-radius: 500px;
+  padding-left: 43px;
+  padding-right: 44px;
 }
 
 .hero-card-strawberry > .oval-strawberries {
