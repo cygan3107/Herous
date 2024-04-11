@@ -33,15 +33,37 @@ header {
 
 .header-logo-text {
   margin-left: 8px;
+  font-family: "DM Sans", sans-serif;
+font-weight: 700;
+font-size: 14px;
+line-height: 1.28571;
+letter-spacing: -0.04em;
+text-transform: uppercase;
+text-align: center;
+color: #ae1332;
+margin-right: 155px;
 }
 
 .header-cart {
   display: flex;
+  margin-right: 20px;
 }
 
 .cart-svg {
   width: 24px;
   height: 24px;
+}
+@media only screen and (max-width: 375px) {
+  .menu-container {
+    display: none;
+  }
+}
+.responsive {
+  display: none;
+}
+
+.responsive-modal {
+  display: none;
 }
 
 @media only screen and (min-width: 768px) {
@@ -59,14 +81,16 @@ header {
   }
   .header-cart {
     display: flex;
-    margin-left: 226px;
+  }
+  .responsive {
+    display: flex
+    ;
   }
   .responsive-lines {
     display: none;
   }
   .responsive-modal {
     display: none;
-    visibility: hidden;
   }
 }
 
