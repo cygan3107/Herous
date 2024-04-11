@@ -14,8 +14,7 @@ header {
 }
 
 .menu-container {
-    display: flex;
-    width: 30%;
+    width: 40%;
     align-items: center;
 }
 
@@ -23,14 +22,12 @@ header {
     margin: 1vh 1vw;
     text-decoration: none;
     color: inherit;
-    font-size: 18px;
 }
 
 .header-logo {
     display: flex;
     margin: 1vh 1vw;
-    width: 40%;
-    font-size: 18px;
+    width: 20%;
     font-weight: 700;
     justify-content: center;
     align-items: center;
@@ -53,7 +50,6 @@ header {
 
 .header-cart {
     display: flex;
-    width: 30%;
     justify-content: flex-end;
     align-items: center;
     margin-right: 1vw;
@@ -64,45 +60,80 @@ header {
     height: 24px;
 }
 
-.menu-tablet {
-    display: none;
-}
-
 .responsive {
-    display: none;
+
 }
 
-@media only screen and (min-width: 768px) and (max-width: 1279px) {
-    .responsive {
-        display: none;
-    }
-    .menu-tablet {
+@media only screen and (min-width: 768px) {
+    .menu-container {
+        font-size: 18px;
         display: flex;
-        width: 30%;
-        justify-content: flex-end;
-        align-items: center;
+    }
+    .header-logo {
+        font-size: 18px;
+        width: 20%;
+    }
+    .header-cart {
+        display: flex;
+        width: 40%;
+    }
+    .responsive { 
+        visibility: hidden;
+    }
+    .responsive-modal {
+        display: none;
+        visibility: hidden;
     }
 }
+
 @media only screen and (max-width: 767px) {
-    .header-cart {
-        display: none; 
+    .menu-container {
+        display: flex;
+        font-size: 10px;
     }
-    .responsive {
+    .header-logo {
+        font-size: 10px;
+        width: 20%;
+    }
+    .header-cart {
+        display: flex;
+        width: 40%;
+    }
+    .header-cart {
         display: flex; 
     }
+
+    .responsive {
+        visibility: hidden;
+    }
+    .responsive-modal {
+        visibility: hidden;
+        display: none;
+    }
 }
-@media only screen and (max-width: 374px) {
+
+@media only screen and (max-width: 375px) {
+    .menu-container {
+        display: none;
+    }
+    .menu-link{
+        font-size: 10px;
+    }
+    .header-logo {
+        width:80%;
+    }
     .header-cart {
-        display: none; 
+        display: flex;
     }
     .menu-tablet {
-        display: flex;
-        width: 30%;
-        justify-content: flex-end;
-        align-items: center;
+        visibility: hidden;
     }
-    .responsive {
+
+    .responsive-lines {
         display: flex;
         font-size: 14px; 
+    }
+    .responsive-modal {
+        visibility: hidden;
     }
 }

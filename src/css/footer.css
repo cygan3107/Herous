@@ -127,4 +127,59 @@ footer {
 .adress {
     margin: 0; 
 }
+@media only screen and (max-width: 1280px) {
+    .position-image{
+
+    }
+    .logo-footer-position{
+
+    }
+    .menu-footer-container{
+
+    }
+    .footer-icons-container{
+
+    }
+    .moving-contact-adresses {
+
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .position-image{
+
+    }
+    .logo-footer-position{
+
+    }
+    .menu-footer-container{
+
+    }
+    .footer-icons-container{
+
+    }
+    .moving-contact-adresses{
+
+    }
+}
+
+@media only screen and (min-width: 375px) {
+    .position-image{
+
+    }
+    .logo-footer-position {
+
+    }
+    .menu-footer-container{
+
+    }
+    .footer-icons-container{
+
+    }
+    .moving-contact-adresses{
+
+    }
+}
+
+
 
