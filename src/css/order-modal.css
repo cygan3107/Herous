@@ -183,13 +183,6 @@
   margin-top: 20px;
 }
 
-.your-order-checkbox::before {
-  visibility: hidden;
-}
-
-.your-order-checkbox::after + .checkbox-container:focus {
-  visibility: visible;
-}
 .checkbox-container {
   background-color: transparent;
   border: 1.5px solid #fff;
@@ -202,22 +195,7 @@
   align-items: center;
   justify-content: center;
 }
-.your-order-checkbox:focus + .svg-for-your-check {
-  fill: #fff;
-}
-.svg-for-your-check {
-  width: 8px;
-  height: 8px;
-  border: none;
-  border-radius: 2px;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    border 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  fill: transparent;
-}
+
 .visually-hidden {
   position: absolute;
   width: 1px;
