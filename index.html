@@ -17,7 +17,7 @@
     />
     
     <script type="module" crossorigin src="/Herous/commonHelpers.js"></script>
-    <link rel="stylesheet" href="/Herous/assets/index-227ffbb4.css">
+    <link rel="stylesheet" href="/Herous/assets/index-7dc16abd.css">
   </head>
   <body>
     <header>
@@ -913,33 +913,48 @@
     <h2 class="contacts_header">fresh harvest box has got you covered</h2>
     <div class="fruits_contacts">
       <div class="melon_img">
-        <img
-          class="img_contacts"
-          srcset="
-            ./img/melon_x1.jpg,
-            ./img/melon_tabletx2  2x,
-            ./img/melon_desctopx2
-          "
-          src="../img/melon_x1.jpg"
-          alt="melon"
-        />
+        <picture class="img_contacts">
+          <source
+            media="(min-width: 1280px)"
+            srcset="./images/melon_desctopx2.jpg 2x"
+            media="(min-width: 768px)"
+            srcset="./images/melon_x1.jpg 1x, ./images/melon_tabletx2.jpg 2x"
+            media="(min-width: 375px)"
+            srcset="./images/melon_x1.jpg 1x"
+          />
+          <img
+            class="img_contacts melon"
+            src="./images/melon_x1.jpg"
+            alt="melon"
+            width="335"
+            height="475"
+          />
+        </picture>
       </div>
       <div class="blueberry_img">
-        <img
-          class="img_contacts"
-          srcset="./img/blueberry_x1.jpg, ./img/blueberry_x2 2x"
-          src="/Herous/assets/blueberry_x2-9dca0344.jpg"
-          alt="blueberry"
-        />
+        <picture class="img_contacts">
+          <source
+            media="(min-width: 1280px)"
+            srcset="./images/blueberry_x2.jpg 2x"
+            media="(min-width: 768px)"
+            srcset="./images/blueberry_x1.jpg 1x, ./images/blueberry_x2 2x"
+          />
+          <img
+            class="img_contacts blueberry"
+            src="./images/blueberry_x1.jpg"
+            alt="blueberry"
+            width="335"
+            height="475"
+          />
+        </picture>
       </div>
-    </div>
     <div class="contacts_input">
       <p class="contacts_p">
         Our boxes are packed with delicious, nutritious fruits and vegetables,
         perfect for anyone looking to eat healthier or support local farmers.
         Order your box today and start enjoying the best that nature has to
         offer!
-      </p>
+      </p>>
       <div>
         <form class="send_form">
           <label for="mail" class="label-email">
@@ -961,45 +976,7 @@
 </section>
 
     </main>
-        <footer>
-        <div class="position-image">
-            <img src="/Herous/assets/image-66e6570e.png">
-        </div>
-        <div class="logo-footer-position">
-            <img class="logo-svg" src="/Herous/assets/logo-c76aed5e.svg">
-            <a class="logo-text">FRESH HARVEST BOX</a>
-        </div>
-        <div class="menu-footer-container">
-        <div class="menu-footer">
-            <a class="menu-link-footer" href="how-it-works.html">How It Works</a>
-            <a class="menu-link-footer" href="fruits.html">Fruits</a>
-            <a class="menu-link-footer" href="contacts.html">Contacts</a>
-        </div>
-      </div>
-      <div class="footer-icons-container">
-          <div class="footer-icons footer-icons-facebook">
-              <img class="normal" src="/Herous/assets/facebook-37c94b8d.svg">
-              <img class="hover" src="/Herous/assets/facebookhover-380ac69d.svg">
-          </div>
-          <div class="footer-icons footer-icons-instagram">
-              <img class="normal" src="/Herous/assets/instagram-c6336e21.svg">
-              <img class="hover" src="/Herous/assets/instagramhover-3bc952af.svg">
-          </div>
-          <div class="footer-icons footer-icons-youtube">
-              <img class="normal" src="/Herous/assets/youtube-a68c48d3.svg">
-              <img class="hover" src="/Herous/assets/youtubehover-01733cbd.svg">
-          </div>
-      </div>
-      </div>
-      <div class="moving-contact-adresses">
-      <div class="footer-contact">
-        <a class="tel-number-footer">+380 (68) 443-94-26</a>
-    </div>
-    <div class="footer-adress">
-        <a class="adress">1678 S. Pioneer Road<br>Salt Lake City<br>UT 84104</a>
-    </div>  
-  </div>  
-    </footer>
+    
     <div class="on-off">
   <div class="your-order-div">
     <div class="your-order-area">
