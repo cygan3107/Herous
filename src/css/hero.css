@@ -361,7 +361,7 @@ source {
 }
 
 .hero-card-img {
-  z-index: 2;
+  z-index: 1;
 }
 
 .hero-card-watermelon {
@@ -376,10 +376,14 @@ source {
 
 .hero-card-watermelon > .oval {
   position: absolute;
-  top: 209px;
+  top: 228px;
   left: 50%;
   transform: translateX(-50%);
-  z-index: 1;
+  z-index: 2;
+  fill: #000;
+  width: 239px;
+  height: 38px;
+  filter: blur(27.182817459106445px);
 }
 
 .hero-card-strawberry {
