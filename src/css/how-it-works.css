@@ -108,14 +108,20 @@
   color: #000;
   text-shadow: 0 4px 70px 0 rgba(0, 0, 0, 0.1);
 }
-.hiw-gif {
-  border-radius: 20px;
-  width: 335px;
-  height: 476px;
-  overflow: hidden;
-}
 .hiw-gif-img {
-  width: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 20px;
+  object-fit: cover;
+  margin-bottom: 80px;
+}
+@media (max-width: 767px) {
+  .hiw-gif-img {
+    width: 100%;
+    max-width: 335px;
+    min-height: 476px;
+  }
 }
 @media (min-width: 768px) {
   .hiw-order {
@@ -140,12 +146,10 @@
   .hiw-list-paragraf {
     width: 199px;
   }
-  .hiw-gif {
-    width: 704px;
-    height: 476px;
-  }
   .hiw-gif-img {
-    width: 100%;
+    max-width: 704px;
+    min-height: 476px;
+    margin-bottom: 144px;
   }
 }
 @media (min-width: 1280px) {
@@ -158,11 +162,9 @@
     gap: 24px;
     width: 389px;
   }
-  .hiw-gif {
-    width: 860px;
-    height: 476px;
-  }
   .hiw-gif-img {
-    max-width: 100%;
+    max-width: 860px;
+    min-height: 476px;
+    margin-bottom: 150px;
   }
 }
