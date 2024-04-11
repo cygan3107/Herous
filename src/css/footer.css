@@ -13,11 +13,7 @@ footer {
   align-items: center;
   width: 1280px;
   height: 377px;
-<<<<<<< Updated upstream
   padding: 20px;
-=======
-  padding: 32px;
->>>>>>> Stashed changes
   box-sizing: border-box;
 }
 
@@ -132,16 +128,9 @@ footer {
 .adress {
   margin: 0;
 }
-<<<<<<< Updated upstream
 /*@media only screen and (min-width: 768px) {
     .position-image{
-=======
-@media only screen and (min-width: 768px) {
-  .position-image {
-  }
-  .logo-footer-position {
-  }
->>>>>>> Stashed changes
+    }
 
   .footer-icons-container {
     display: flex;
@@ -182,7 +171,4 @@ footer {
   .moving-contact-adresses {
   }
 }
-<<<<<<< Updated upstream
-*/
-=======
->>>>>>> Stashed changes
+
