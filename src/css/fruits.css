@@ -46,6 +46,7 @@
   width: 335px;
   height: 465px;
   border-radius: 20px;
+  position: relative;
 }
 
 .fruits__strawberry {
@@ -115,6 +116,15 @@
   padding: 0 0 26px 20px;
 }
 
+.fruits__item > .fruits__oval {
+  fill: #000;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1;
+  position: absolute;
+  top: 350px;
+}
+
 .fruits__price {
   font-family: 'DM Sans', sans-serif;
   font-weight: 500;
@@ -164,7 +174,7 @@
   text-transform: uppercase;
   text-shadow: 0px 4px 70px rgba(0, 0, 0, 0.1);
   cursor: pointer;
-  -webkit-animation: jello-horizontal 3s both;
+  transition: color 400ms cubic-bezier(0.4, 0, 0.2, 1);
   animation: jello-horizontal 3s both;
   animation-iteration-count: infinite;
 }
@@ -316,6 +326,6 @@
   }
 
   .fruits__img {
-    padding: 0 47px;
+    padding: 0 47px 4px 47px;
   }
 }
