@@ -127,16 +127,9 @@
 }
 .your-form-div {
   height: 46px;
-  border-radius: 100px;
-  border-color: #000000;
   margin-bottom: 14px;
 }
-.your-form-div-second {
-  height: 132px;
-  border-radius: 100px;
-  border-color: #000000;
-  margin-bottom: 14px;
-}
+
 .your-order-input {
   width: 90%;
   border: 1px solid rgba(46, 47, 66, 0.4);
@@ -157,6 +150,14 @@
   padding: 0;
   padding-left: 24px;
   resize: none;
+  margin-bottom: 14px;
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.28571;
+  letter-spacing: -0.04em;
+  color: #000;
+  padding-top: 14px;
 }
 
 .your-order-btn {
