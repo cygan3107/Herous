@@ -1,0 +1,51 @@
+<section class="contacts">
+  <div class="contacts_container">
+    <h2 class="contacts_header">fresh harvest box has got you covered</h2>
+    <div class="fruits_contacts">
+      <div class="melon_img">
+        <img
+          class="img_contacts"
+          srcset="
+            ./img/melon_x1.jpg,
+            ./img/melon_tabletx2  2x,
+            ./img/melon_desctopx2
+          "
+          src="../img/melon_x1.jpg"
+          alt="melon"
+        />
+      </div>
+      <div class="blueberry_img">
+        <img
+          class="img_contacts"
+          srcset="./img/blueberry_x1.jpg, ./img/blueberry_x2 2x"
+          src="./img/blueberry_x2.jpg"
+          alt="blueberry"
+        />
+      </div>
+    </div>
+    <div class="contacts_input">
+      <p class="contacts_p">
+        Our boxes are packed with delicious, nutritious fruits and vegetables,
+        perfect for anyone looking to eat healthier or support local farmers.
+        Order your box today and start enjoying the best that nature has to
+        offer!
+      </p>
+      <div>
+        <form class="send_form">
+          <label for="mail" class="label-email">
+            <input
+              type="email"
+              class="send"
+              placeholder="Enter e-mail..."
+              id="mail"
+              name="email"
+              pattern="[a-z0-9._%+\-]+@[a-z0-9.\-]+\.[a-z]{2,}$"
+              required=""
+            />
+          </label>
+          <button class="send_button" type="submit">Send</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
