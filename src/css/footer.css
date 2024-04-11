@@ -29,8 +29,11 @@ footer {
     align-items: center;
     margin-bottom:20px;
     margin-right: 800px;
-}
 
+}
+.logo-svg {
+    margin-right: 5px;
+}
 .menu-footer-container {
     display: flex;
     align-items: center;
@@ -50,7 +53,6 @@ footer {
     padding: 0;
     text-decoration: none;
     color: inherit;
-    font-size: 18px;
 }
 .footer-icons-container {
     display: flex;
@@ -127,18 +129,17 @@ footer {
 .adress {
     margin: 0; 
 }
-@media only screen and (max-width: 1280px) {
+@media only screen and (min-width: 768px) {
     .position-image{
 
     }
     .logo-footer-position{
 
     }
-    .menu-footer-container{
 
-    }
     .footer-icons-container{
-
+        display: flex;
+        font-size: 18px;
     }
     .moving-contact-adresses {
 
@@ -153,7 +154,12 @@ footer {
 
     }
     .menu-footer-container{
-
+        display: flex;
+        font-size: 18px;
+    }
+    .menu-footer {
+        display: flex;
+        margin-bottom: 30px;
     }
     .footer-icons-container{
 
