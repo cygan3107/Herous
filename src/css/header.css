@@ -82,9 +82,11 @@ margin-right: 155px;
   .header-cart {
     display: flex;
   }
+.header-logo-text {
+  margin-right: 225px;
+}
   .responsive {
-    display: flex
-    ;
+    display: flex;
   }
   .responsive-lines {
     display: none;
@@ -97,20 +99,33 @@ margin-right: 155px;
 @media only screen and (min-width: 1280px) {
   .menu-container {
     display: flex;
-    font-size: 10px;
+    font-size: 14px;
   }
+  .menu-link {font-family: "DM Sans", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.28571;
+    letter-spacing: -0.04em;
+    text-align: center;
+    color: #ae1332;}
   .header-logo {
-    font-size: 10px;
+    font-size: 14px;
+    margin-left: 322px;
+  }
+  .header-logo-text {
+    margin-right: 502px;
   }
   .header-cart {
     display: flex;
   }
 
   .responsive {
-    visibility: hidden;
+    display: flex;
+  }
+  .responsive-lines {
+    display: none;
   }
   .responsive-modal {
-    visibility: hidden;
     display: none;
   }
 }
