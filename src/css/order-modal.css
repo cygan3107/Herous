@@ -185,7 +185,6 @@
 
 .checkbox-container {
   background-color: transparent;
-  border: 1.5px solid #fff;
   border-radius: 4px;
   width: 16px;
   height: 16px;
@@ -195,7 +194,11 @@
   align-items: center;
   justify-content: center;
 }
-
+.checkbox-container .visually-hidden:checked > .for-svg {
+  background-color: transparent;
+  border: none;
+  fill: #f4f4fd;
+}
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -208,7 +211,17 @@
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
-
+.take-me-to {
+  width: 16px;
+  height: 16px;
+}
+.checkbox-container .visually-hidden:checked + .take-me-to > .church {
+  background-image: url(../img/pick.png);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-color: transparent;
+  border: none;
+}
 @media (min-width: 768px) {
   .your-order-heading {
     margin-top: 20px;
