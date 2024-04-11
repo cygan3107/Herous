@@ -35,8 +35,8 @@ source {
 }
 
 .hero-container {
-  background-image: url(./img/mobilestrawberries.png),
-    url(./img/mobilebananas.png);
+  background-image: url(../img/mobilestrawberries.png),
+    url(../img/mobilebananas.png);
   background-repeat: no-repeat;
   background-size: 56px 56px, 66px 44px;
   background-position: top 56px right 0px, top 116px left -7px;
@@ -46,15 +46,15 @@ source {
   (min-resolution: 192dpi),
   (min-resolution: 2dppx) {
   .hero-container {
-    background-image: url(./img/mobilestrawberries@2x.png),
-      url(./img/mobilebananas@2x.png);
+    background-image: url(../img/mobilestrawberries@2x.png),
+      url(../img/mobilebananas@2x.png);
   }
 }
 
 @media only screen and (min-width: 768px) {
   .hero-container {
-    background-image: url(./img/tabletstrawberries.png),
-      url(./img/tabletbananas.png);
+    background-image: url(../img/tabletstrawberries.png),
+      url(../img/tabletbananas.png);
     background-size: 108px 108px, 132px 90px;
     background-position: top 54px right -5px, top 169px left -5px;
   }
@@ -65,16 +65,16 @@ source {
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
     .hero-container {
-      background-image: url(./img/tabletstrawberries@2x.png),
-        url(./img/tabletbananas@2x.png);
+      background-image: url(../img/tabletstrawberries@2x.png),
+        url(../img/tabletbananas@2x.png);
     }
   }
 }
 
 @media only screen and (min-width: 1280px) {
   .hero-container {
-    background-image: url(./img/desktopstrawberries.png),
-      url(./img/desktopbananas.png);
+    background-image: url(../img/desktopstrawberries.png),
+      url(../img/desktopbananas.png);
     background-size: 120px 120px, 183px 125px;
     background-position: top 39px right 191px, top 191px left 181px;
   }
@@ -85,8 +85,8 @@ source {
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
     .hero-container {
-      background-image: url(./img/desktopstrawberries@2x.png),
-        url(./img/desktopbananas@2x.png);
+      background-image: url(../img/desktopstrawberries@2x.png),
+        url(../img/desktopbananas@2x.png);
     }
   }
 }
@@ -175,7 +175,7 @@ source {
 
 .hero-button::after {
   content: '';
-  background-image: url(./img/mobileyoung.png);
+  background-image: url(../img/mobileyoung.png);
   width: 311px;
   height: 484px;
   background-size: contain;
@@ -192,20 +192,20 @@ source {
   (min-resolution: 192dpi),
   (min-resolution: 2dppx) {
   .hero-button::after {
-    background-image: url(./img/mobileyoung@2x.png);
+    background-image: url(../img/mobileyoung@2x.png);
   }
 }
 
 @media only screen and (max-width: 334px) {
   .hero-button::after {
-    background-image: url(./img/mobileyoung.png);
+    background-image: url(../img/mobileyoung.png);
     width: 100vw;
   }
 }
 
 @media only screen and (min-width: 768px) {
   .hero-button::after {
-    background-image: url(./img/tabletyoung.png);
+    background-image: url(../img/tabletyoung.png);
     width: 452px;
     height: 702px;
     bottom: 32px;
@@ -217,14 +217,14 @@ source {
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
     .hero-button::after {
-      background-image: url(./img/tabletyoung@2x.png);
+      background-image: url(../img/tabletyoung@2x.png);
     }
   }
 }
 
 @media only screen and (min-width: 1280px) {
   .hero-button::after {
-    background-image: url(./img/desktopyoung.png);
+    background-image: url(../img/desktopyoung.png);
     width: 452px;
     height: 702px;
     bottom: 30px;
@@ -236,7 +236,7 @@ source {
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
     .hero-button::after {
-      background-image: url(./img/desktopyoung@2x.png);
+      background-image: url(../img/desktopyoung@2x.png);
     }
   }
 }
