@@ -21,20 +21,30 @@ body {
 .logo-svg {
     margin-right: 5px;
 }
+.menu-footer-container {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+}
+
 .menu-footer {
     display: flex;
     justify-content: center;
-    color: inherit;
-    display: flex;
-    width:30%;
     align-items: center;
 }
+
 .menu-link-footer {
-    margin: 0 10px;
+    margin: 0 10px; 
+    padding: 0;
     text-decoration: none;
     color: inherit;
     font-size: 18px;
 }
+
+
 .logo-footer-position {
     display: flex;
     margin: 1vh 1vw;
@@ -61,7 +71,7 @@ body {
 .footer-icons img {
     width: 44px; 
     height: auto;
-    margin-left: 10px; 
+    margin-left: 20px; 
     cursor: pointer; 
     transition: opacity 0.5s ease;
     position: relative;
@@ -92,7 +102,7 @@ body {
 .footer-icons-second img {
     width: 44px; 
     height: auto;
-    margin-left: 10px; 
+    margin-left: 20px; 
     cursor: pointer; 
     transition: opacity 0.5s ease; 
     position: relative;
@@ -123,7 +133,7 @@ body {
 .footer-icons-third img {
     width: 44px;
     height: auto;
-    margin-left: 10px;
+    margin-left: 20px;
     cursor: pointer; 
     transition: opacity 0.5s ease; 
     position: relative;
@@ -141,4 +151,27 @@ body {
 
 .footer-icons-third:hover img.hover {
     opacity: 1; 
+}
+.footer-contact {
+    position: fixed;
+    bottom: 450px;
+    right: 150px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.tel-number-footer {
+    width: 184px;
+    height: 24px;
+    margin-left: 20px;
+    cursor: pointer; 
+    line-height: 24px;
+
+}
+.footer-adress {
+    position: fixed;
+    bottom: 420px;
+    right: 150px;
+    display: flex;
+    align-items: center;
 }
