@@ -35,8 +35,8 @@ source {
 }
 
 .hero-container {
-  background-image: url(./img/mobilestrawberries.png),
-    url(./img/mobilebananas.png);
+  background-image: url(../img/mobilestrawberries.png),
+    url(../img/mobilebananas.png);
   background-repeat: no-repeat;
   background-size: 56px 56px, 66px 44px;
   background-position: top 56px right 20px, top 116px left 13px;
@@ -46,15 +46,15 @@ source {
   (min-resolution: 192dpi),
   (min-resolution: 2dppx) {
   .hero-container {
-    background-image: url(./img/mobilestrawberries@2x.png),
-      url(./img/mobilebananas@2x.png);
+    background-image: url(../img/mobilestrawberries@2x.png),
+      url(../img/mobilebananas@2x.png);
   }
 }
 
 @media only screen and (min-width: 768px) {
   .hero-container {
-    background-image: url(./img/tabletstrawberries.png),
-      url(./img/tabletbananas.png);
+    background-image: url(../img/tabletstrawberries.png),
+      url(../img/tabletbananas.png);
     background-size: 108px 108px, 132px 90px;
     background-position: top 54px right 37px, top 169px left 27px;
   }
@@ -65,16 +65,16 @@ source {
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
     .hero-container {
-      background-image: url(./img/tabletstrawberries@2x.png),
-        url(./img/tabletbananas@2x.png);
+      background-image: url(../img/tabletstrawberries@2x.png),
+        url(../img/tabletbananas@2x.png);
     }
   }
 }
 
 @media only screen and (min-width: 1280px) {
   .hero-container {
-    background-image: url(./img/desktopstrawberries.png),
-      url(./img/desktopbananas.png);
+    background-image: url(../img/desktopstrawberries.png),
+      url(../img/desktopbananas.png);
     background-size: 120px 120px, 183px 125px;
     background-position: top 39px right 223px, top 191px left 213px;
   }
@@ -85,8 +85,8 @@ source {
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
     .hero-container {
-      background-image: url(./img/desktopstrawberries@2x.png),
-        url(./img/desktopbananas@2x.png);
+      background-image: url(../img/desktopstrawberries@2x.png),
+        url(../img/desktopbananas@2x.png);
     }
   }
 }
