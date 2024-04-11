@@ -155,7 +155,6 @@
   padding: 0;
   padding-left: 24px;
   resize: none;
-  margin-bottom: 14px;
   font-family: 'DM Sans', sans-serif;
   font-weight: 400;
   font-size: 14px;
@@ -231,12 +230,9 @@
   }
 }
 @media (min-width: 768px) {
-  .your-order-heading {
-    margin-top: 20px;
-  }
   .your-order-div {
     max-width: 704px;
-    max-height: 773px;
+    max-height: 853px;
     background-image: url(../img/banana-phone1.png);
     background-repeat: no-repeat;
     background-position: 100% 100%;
@@ -284,6 +280,9 @@
   .checkbox-container {
     margin-left: 166px;
   }
+  .your-order-btn {
+    margin-top: 20px;
+  }
 }
 @media (min-width: 1280px) {
   .img-padding {
@@ -295,8 +294,8 @@
     height: 196px;
   }
   .your-order-div {
-    min-width: 811px;
-    min-height: 831px;
+    min-width: 891px;
+    min-height: 911px;
     background-image: url(../img/banana-d-1.png);
     background-repeat: no-repeat;
     background-position: 100% 100%;
