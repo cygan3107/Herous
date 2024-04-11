@@ -1,139 +1,131 @@
 body {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 header {
-    display: flex;
-    background-color: #FFFFFF;
-    color: #AE1332;
-    font-family: 'DM Sans';
-    justify-content: space-between;
-    width: 100%;
-    height: 50px;
-}
-
-.menu-container {
-    width: 40%;
-    align-items: center;
+  display: flex;
+  background-color: #ffffff;
+  color: #ae1332;
+  font-family: 'DM Sans';
+  width: 100%;
+  height: 50px;
 }
 
 .menu-link {
-    margin: 1vh 1vw;
-    text-decoration: none;
-    color: inherit;
+  text-decoration: none;
+  color: inherit;
 }
 
 .header-logo {
-    display: flex;
-    margin: 1vh 1vw;
-    width: 20%;
-    font-weight: 700;
-    justify-content: center;
-    align-items: center;
-}
-
-.logo-svg {
-    margin-right: 5px;
+  display: flex;
+  font-weight: 700;
+  align-items: center;
+  margin-left: 20px;
 }
 
 .logo-svg-link {
-    padding: 0;
-    margin: 0;
-    width: fit-content;
-    height: fit-content;
+  padding: 0;
+  margin: 0;
+  width: fit-content;
+  height: fit-content;
 }
 
-.logo-text {
-    margin-left: 5px;
+.header-logo-text {
+  margin-left: 8px;
+  font-family: "DM Sans", sans-serif;
+font-weight: 700;
+font-size: 14px;
+line-height: 1.28571;
+letter-spacing: -0.04em;
+text-transform: uppercase;
+text-align: center;
+color: #ae1332;
+margin-right: 155px;
 }
 
 .header-cart {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    margin-right: 1vw;
+  display: flex;
+  margin-right: 20px;
 }
 
 .cart-svg {
-    width: 24px;
-    height: 24px;
+  width: 24px;
+  height: 24px;
+}
+@media only screen and (max-width: 375px) {
+  .menu-container {
+    display: none;
+  }
+}
+.responsive {
+  display: none;
 }
 
-/*.responsive {
-
-}*/
+.responsive-modal {
+  display: none;
+}
 
 @media only screen and (min-width: 768px) {
-    .menu-container {
-        font-size: 18px;
-        display: flex;
-    }
-    .header-logo {
-        font-size: 18px;
-        width: 20%;
-    }
-    .header-cart {
-        display: flex;
-        width: 40%;
-    }
-    .responsive { 
-        visibility: hidden;
-    }
-    .responsive-modal {
-        display: none;
-        visibility: hidden;
-    }
+  .menu-container {
+    font-size: 14px;
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    margin-left: 32px;
+  }
+  .header-logo {
+    display: flex;
+    font-size: 14px;
+    margin-left: 94px;
+  }
+  .header-cart {
+    display: flex;
+  }
+.header-logo-text {
+  margin-right: 225px;
+}
+  .responsive {
+    display: flex;
+  }
+  .responsive-lines {
+    display: none;
+  }
+  .responsive-modal {
+    display: none;
+  }
 }
 
-@media only screen and (max-width: 767px) {
-    .menu-container {
-        display: flex;
-        font-size: 10px;
-    }
-    .header-logo {
-        font-size: 10px;
-        width: 20%;
-    }
-    .header-cart {
-        display: flex;
-        width: 40%;
-    }
-    .header-cart {
-        display: flex; 
-    }
+@media only screen and (min-width: 1280px) {
+  .menu-container {
+    display: flex;
+    font-size: 14px;
+  }
+  .menu-link {font-family: "DM Sans", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.28571;
+    letter-spacing: -0.04em;
+    text-align: center;
+    color: #ae1332;}
+  .header-logo {
+    font-size: 14px;
+    margin-left: 322px;
+  }
+  .header-logo-text {
+    margin-right: 502px;
+  }
+  .header-cart {
+    display: flex;
+  }
 
-    .responsive {
-        visibility: hidden;
-    }
-    .responsive-modal {
-        visibility: hidden;
-        display: none;
-    }
-}
-
-@media only screen and (max-width: 375px) {
-    .menu-container {
-        display: none;
-    }
-    .menu-link{
-        font-size: 10px;
-    }
-    .header-logo {
-        width:80%;
-    }
-    .header-cart {
-        display: flex;
-    }
-    .menu-tablet {
-        visibility: hidden;
-    }
-
-    .responsive-lines {
-        display: flex;
-        font-size: 14px; 
-    }
-    .responsive-modal {
-        visibility: hidden;
-    }
+  .responsive {
+    display: flex;
+  }
+  .responsive-lines {
+    display: none;
+  }
+  .responsive-modal {
+    display: none;
+  }
 }
