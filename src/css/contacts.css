@@ -133,6 +133,15 @@
     opacity: 0.3;
     outline: none;
   }
+  .melon {
+    width: 334px;
+    height: 480px;
+    border-radius: 20px;
+  }
+  .blueberry {
+    width: 344px;
+    height: 480px;
+  }
 }
 
 @media (min-width: 1280px) {
@@ -150,10 +159,6 @@
     height: 128px;
     top: -60px;
     left: 268px;
-  }
-  .img_contacts {
-    max-width: 792px;
-    height: 502px;
   }
 
   .send_button {
@@ -189,5 +194,14 @@
     background-color: transparent;
     opacity: 0.3;
     outline: none;
+  }
+  .melon {
+    width: 792px;
+    height: 502px;
+    border-radius: 20px;
+  }
+  .blueberry {
+    width: 400px;
+    height: 502px;
   }
 }
