@@ -182,19 +182,14 @@
   border: 0;
   margin-top: 20px;
 }
-/*
-.checkbox-label {
-  display: block;
-  position: relative;
-  padding-left: 45px;
-  margin-bottom: 15px;
-  cursor: pointer;
-  font-size: 20px;
-}*/
-.your-order-checkbox {
+
+.your-order-checkbox::before {
   visibility: hidden;
 }
 
+.your-order-checkbox::after + .checkbox-container:focus {
+  visibility: visible;
+}
 .checkbox-container {
   background-color: transparent;
   border: 1.5px solid #fff;
@@ -203,9 +198,37 @@
   height: 16px;
   margin-top: 14px;
   margin-right: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.your-order-checkbox:focus + .svg-for-your-check {
+  fill: #fff;
 }
 .svg-for-your-check {
-  position: relative;
+  width: 8px;
+  height: 8px;
+  border: none;
+  border-radius: 2px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  fill: transparent;
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
 @media (min-width: 768px) {
@@ -229,9 +252,13 @@
   .your-order-list-child {
     min-width: 200px;
   }
+  .your-box-div {
+    margin-top: 0;
+  }
   .your-order-box {
     display: flex;
     flex-direction: column-reverse;
+    padding-top: 14px;
 
     width: 200px;
     height: 250px;
@@ -253,6 +280,9 @@
   }
   .img-padding-strawberries {
     margin-left: 34px;
+  }
+  .checkbox-container {
+    margin-left: 166px;
   }
 }
 @media (min-width: 1280px) {
