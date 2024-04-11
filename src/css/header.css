@@ -53,3 +53,114 @@ header {
 .cart-svg {
 
 }
+@media only screen and (min-width: 1280px) {
+    .header {
+      height: 50px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+  
+    .menu-container {
+      width: 30%;
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+    }
+  
+    .header-logo {
+      width: 40%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    .header-cart {
+      width: 30%;
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+    }
+  }
+  
+ 
+@media only screen and (max-width: 767px) {
+    .header {
+      height: 50px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    .menu-container,
+    .header-logo {
+      width: 100%;
+      margin-top: 10px;
+    }
+  
+    .header-cart {
+      display: none;
+    }
+  
+    .menu-tablet {
+      width: 30%;
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+    }
+  }
+  
+
+  @media only screen and (max-width: 374px) {
+    .header {
+      height: 50px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    .menu-container,
+    .header-logo {
+      width: 100%;
+      margin-top: 10px;
+    }
+  
+    .header-cart {
+      display: none; 
+    }
+  
+    .menu-tablet {
+      width: 30%;
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+    }
+  }
+@media only screen and (max-width: 767px) {
+    .menu-tablet {
+      width: 30%;
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+    }
+ 
+    .header-cart {
+      display: none;
+    }
+  }
+  
+  @media only screen and (min-width: 768px) {
+    .menu-tablet {
+      display: none;
+    }
+  
+    .header-cart {
+      display: flex;
+      width: 30%;
+      justify-content: flex-end;
+      align-items: center;
+    }
+  }  
+  

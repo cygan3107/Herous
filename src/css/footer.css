@@ -103,10 +103,6 @@ footer {
 .footer-icons-youtube:hover img.hover {
     opacity: 1;
 }
-.footer-icons {
-    display: block;
-}
-
 .moving-contact-adresses{
     position: relative; 
     left: 500px; 
