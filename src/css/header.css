@@ -1,0 +1,139 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    background-color: #FFFFFF;
+    color: #AE1332;
+    font-family: 'DM Sans';
+    justify-content: space-between;
+    width: 100%;
+    height: 50px;
+}
+
+.menu-container {
+    width: 40%;
+    align-items: center;
+}
+
+.menu-link {
+    margin: 1vh 1vw;
+    text-decoration: none;
+    color: inherit;
+}
+
+.header-logo {
+    display: flex;
+    margin: 1vh 1vw;
+    width: 20%;
+    font-weight: 700;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-svg {
+    margin-right: 5px;
+}
+
+.logo-svg-link {
+    padding: 0;
+    margin: 0;
+    width: fit-content;
+    height: fit-content;
+}
+
+.logo-text {
+    margin-left: 5px;
+}
+
+.header-cart {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 1vw;
+}
+
+.cart-svg {
+    width: 24px;
+    height: 24px;
+}
+
+.responsive {
+
+}
+
+@media only screen and (min-width: 768px) {
+    .menu-container {
+        font-size: 18px;
+        display: flex;
+    }
+    .header-logo {
+        font-size: 18px;
+        width: 20%;
+    }
+    .header-cart {
+        display: flex;
+        width: 40%;
+    }
+    .responsive { 
+        visibility: hidden;
+    }
+    .responsive-modal {
+        display: none;
+        visibility: hidden;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .menu-container {
+        display: flex;
+        font-size: 10px;
+    }
+    .header-logo {
+        font-size: 10px;
+        width: 20%;
+    }
+    .header-cart {
+        display: flex;
+        width: 40%;
+    }
+    .header-cart {
+        display: flex; 
+    }
+
+    .responsive {
+        visibility: hidden;
+    }
+    .responsive-modal {
+        visibility: hidden;
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .menu-container {
+        display: none;
+    }
+    .menu-link{
+        font-size: 10px;
+    }
+    .header-logo {
+        width:80%;
+    }
+    .header-cart {
+        display: flex;
+    }
+    .menu-tablet {
+        visibility: hidden;
+    }
+
+    .responsive-lines {
+        display: flex;
+        font-size: 14px; 
+    }
+    .responsive-modal {
+        visibility: hidden;
+    }
+}
