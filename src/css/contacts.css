@@ -1,28 +1,27 @@
+.contacts {
+  padding-top: 133px;
+  padding-bottom: 80px;
+}
 .contacts_container {
-  max-width: 375px;
+  width: 375px;
   padding: 0 20px;
-  margin: auto;
+  margin: 0 auto;
+  position: relative;
 }
-img {
-  display: block;
-  width: 100%;
-}
-.header {
+.contacts_header {
+  position: absolute;
   font-family: 'DM Sans', sans-serif;
   font-weight: 500;
   font-size: 32px;
   line-height: 100%;
-  letter-spacing: -0.04em;
   text-shadow: 0px 4px 70px rgba(0, 0, 0, 0.1);
   text-transform: uppercase;
   color: #ffffff;
   text-align: center;
-  margin: 0;
-  width: 335px;
+  max-width: 335px;
   height: 96px;
-  margin-bottom: 6px;
-  position: absolute;
-  top: 0px;
+  margin-bottom: 14px;
+  top: -53px;
 }
 .fruits_contacts {
   margin-top: 52px;
@@ -31,27 +30,32 @@ img {
   display: none;
 }
 .img_contacts {
-  width: 335px;
+  max-width: 335px;
   height: 476px;
   border-radius: 20px;
 }
 .contacts_p {
   display: none;
 }
+.send_form {
+  display: none;
+}
+
 @media (min-width: 768px) {
-  .contacts_container {
-    max-width: 768px;
-    padding-left: 32px;
-    padding-right: 32px;
+  .contacts {
+    padding-top: 223px;
+    padding-bottom: 144px;
   }
-  .header {
+  .contacts_container {
+    width: 768px;
+    padding: 0 32px;
+  }
+  .contacts_header {
+    max-width: 648px;
+    height: 108px;
+    top: -50px;
+    left: 60px;
     font-size: 54px;
-    margin: 0;
-    width: 648px;
-    height: auto;
-    margin-bottom: 5px;
-    margin-left: 60px;
-    margin-right: 60px;
   }
   .fruits_contacts {
     margin-top: 52px;
@@ -66,11 +70,15 @@ img {
   }
   .contacts_input {
     display: flex;
+    margin-left: auto;
+    margin-right: auto;
     flex-direction: column;
-    gap: 80px;
+    position: relative;
+    align-items: center;
     justify-content: center;
     margin-top: 80px;
-    max-height: 182px;
+    max-width: 492px;
+    padding: 0;
   }
   .contacts_p {
     font-family: 'DM Sans', sans-serif;
@@ -82,10 +90,8 @@ img {
     color: #ffffff;
     text-align: center;
     display: block;
-    margin: auto;
-    width: 492px;
-    height: 54px;
-    margin-bottom: 6px;
+    margin-bottom: 80px;
+    padding: 0;
   }
   .send_form {
     display: flex;
@@ -102,42 +108,86 @@ img {
     color: white;
     background-color: #9dc162;
     border: none;
-    border-radius: 50px;
-    min-width: 102px;
+    border-radius: 100px;
+    width: 102px;
     height: 48px;
     position: absolute;
-    right: 238px;
+    padding: 15px 35px;
+    right: 0%;
+    transform: translate(-100%);
+    cursor: pointer;
+    border: transparent;
   }
   .send {
     height: 48px;
     width: 292px;
     border: 1px solid #d9d9d9;
-
+    padding: 15px 105px 15px 15px;
     font-size: 14px;
     line-height: 2;
     letter-spacing: 0.04em;
-    padding-left: 16px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    border-radius: 50px;
-    color: #d9d9d9;
-    flex-grow: 2;
-    position: relative;
-    display: inline-block;
+    border-radius: 100px;
+    border-color: #d9d9d9;
+    background-color: transparent;
+    opacity: 0.3;
+    outline: none;
   }
 }
 
 @media (min-width: 1280px) {
+  .contacts {
+    padding-top: 239px;
+    padding-bottom: 150px;
+  }
+
   .contacts_container {
-    max-width: 1280px;
-    padding: 0 20px;
-    margin: auto;
+    width: 1280px;
   }
-  .header {
-    text-align: center;
-    margin-left: 270px;
-    margin-right: 270px;
+  .contacts_header {
+    font-size: 64px;
+    max-width: 740px;
+    height: 128px;
+    top: -60px;
+    left: 268px;
   }
-  .send-button {
-    right: 493px;
+  .img_contacts {
+    max-width: 792px;
+    height: 502px;
+  }
+
+  .send_button {
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 130%;
+    letter-spacing: 0.04em;
+    color: white;
+    background-color: #9dc162;
+    border: none;
+    border-radius: 100px;
+    width: 102px;
+    height: 48px;
+    position: absolute;
+    padding: 15px 35px;
+    right: 0%;
+    transform: translate(-100%);
+    cursor: pointer;
+    border: transparent;
+  }
+  .send {
+    height: 48px;
+    width: 292px;
+    border: 1px solid #d9d9d9;
+    padding: 15px 105px 15px 15px;
+    font-size: 14px;
+    line-height: 2;
+    letter-spacing: 0.04em;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 100px;
+    border-color: #d9d9d9;
+    background-color: transparent;
+    opacity: 0.3;
+    outline: none;
   }
 }
