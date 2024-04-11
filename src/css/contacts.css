@@ -1,6 +1,3 @@
-body {
-  background-color: #db4f4b;
-}
 .contacts_container {
   max-width: 375px;
   padding: 0 20px;
@@ -28,7 +25,6 @@ img {
   top: 0px;
 }
 .fruits_contacts {
-  background-color: #db4f4b;
   margin-top: 52px;
 }
 .blueberry_img {
@@ -58,7 +54,6 @@ img {
     margin-right: 60px;
   }
   .fruits_contacts {
-    background-color: #db4f4b;
     margin-top: 52px;
     display: flex;
     flex-direction: row;
@@ -117,7 +112,7 @@ img {
     height: 48px;
     width: 292px;
     border: 1px solid #d9d9d9;
-    background-color: #db4f4b;
+
     font-size: 14px;
     line-height: 2;
     letter-spacing: 0.04em;
