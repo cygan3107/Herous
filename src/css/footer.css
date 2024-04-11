@@ -1,33 +1,42 @@
 body {
     margin: 0;
     padding: 0;
-}footer {
+}
+
+footer {
     display: flex;
+    flex-direction: column;
     background-color: #FFFFFF;
     color: #AE1332;
     font-family: 'DM Sans';
-    justify-content: space-between;
-    width: 100%;
-    height: 50px;
-}
-.position-image {
-    text-align: center;
-    margin-left: 20px;
-    margin-top: 80px;
-}
-.logo-text {
-    color: inherit;
-}
-.logo-svg {
-    margin-right: 5px;
-}
-.menu-footer-container {
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    display: flex;
     justify-content: center;
+    align-items: center;
+    width: 1280px;
+    height: 377px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.position-image {
+    text-align:center;
+    margin-top: 200px;
+    margin-right: 800px;
+}
+
+.logo-footer-position {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom:20px;
+    margin-right: 800px;
+}
+
+.menu-footer-container {
+    display: flex;
+    align-items: center;
+    position: relative; 
+    left: 125px; 
+    top: -188px; 
 }
 
 .menu-footer {
@@ -37,141 +46,89 @@ body {
 }
 
 .menu-link-footer {
-    margin: 0 10px; 
+    margin: 0 10px;
     padding: 0;
     text-decoration: none;
     color: inherit;
     font-size: 18px;
 }
-
-
-.logo-footer-position {
+.footer-icons-container {
     display: flex;
-    margin: 1vh 1vw;
-    width:40%;
-    font-size: 18px;
-    font-weight:700;
-    align-items: center;
-    margin-top: 10px;
-}
-.content-footer {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-.footer-icons {
-    position: fixed;
-    bottom: 500px;
-    right: 200px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}
-
-.footer-icons img {
-    width: 44px; 
-    height: auto;
-    margin-left: 20px; 
-    cursor: pointer; 
-    transition: opacity 0.5s ease;
     position: relative;
-    z-index: 1;
+    top: -288px; 
+    right: -510px;
+}
+
+.footer-icons {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+    width: 44px; 
+    height: 44px; 
+    background-repeat: no-repeat; 
 }
 
 .footer-icons img.hover {
-    opacity: 0; 
-    transform: none;
+    opacity: 0;
 }
 
 .footer-icons:hover img.normal {
-    opacity: 0; 
+    opacity: 0;
 }
 
 .footer-icons:hover img.hover {
-    opacity: 1; 
-}
-.footer-icons-second {
-    position: fixed;
-    bottom: 500px;
-    right: 150px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+    opacity: 1;
 }
 
-.footer-icons-second img {
-    width: 44px; 
-    height: auto;
-    margin-left: 20px; 
-    cursor: pointer; 
-    transition: opacity 0.5s ease; 
-    position: relative;
-    z-index: 1;
+.footer-icons-facebook:hover img.normal {
+    opacity: 0;
 }
 
-.footer-icons-second img.hover {
-    opacity: 0; 
-    transform: none;
+.footer-icons-facebook:hover img.hover {
+    opacity: 1;
 }
 
-.footer-icons-second:hover img.normal {
-    opacity: 0; 
+.footer-icons-instagram:hover img.normal {
+    opacity: 0;
 }
 
-.footer-icons-second:hover img.hover {
-    opacity: 1; 
-}
-.footer-icons-third {
-    position: fixed;
-    bottom: 500px;
-    right: 100px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+.footer-icons-instagram:hover img.hover {
+    opacity: 1;
 }
 
-.footer-icons-third img {
-    width: 44px;
-    height: auto;
-    margin-left: 20px;
-    cursor: pointer; 
-    transition: opacity 0.5s ease; 
-    position: relative;
-    z-index: 1;
+.footer-icons-youtube:hover img.normal {
+    opacity: 0;
 }
 
-.footer-icons-third img.hover {
-    opacity: 0; 
-    transform: none;
+.footer-icons-youtube:hover img.hover {
+    opacity: 1;
+}
+.footer-icons {
+    display: block;
 }
 
-.footer-icons-third:hover img.normal {
-    opacity: 0; 
-}
-
-.footer-icons-third:hover img.hover {
-    opacity: 1; 
+.moving-contact-adresses{
+    position: relative; 
+    left: 500px; 
+    top: -250px; 
 }
 .footer-contact {
-    position: fixed;
-    bottom: 450px;
-    right: 150px;
     display: flex;
-    flex-direction: row;
     align-items: center;
 }
-.tel-number-footer {
-    width: 184px;
-    height: 24px;
-    margin-left: 20px;
-    cursor: pointer; 
-    line-height: 24px;
 
+.tel-number-footer {
+    margin: 0; 
+    white-space: nowrap; 
 }
+
 .footer-adress {
-    position: fixed;
-    bottom: 420px;
-    right: 150px;
     display: flex;
-    align-items: center;
+    flex-direction: column; 
+    align-items: flex-start; 
 }
+
+.adress {
+    margin: 0; 
+}
+
