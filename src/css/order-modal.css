@@ -179,7 +179,6 @@
   height: 42px;
   background-color: #9dc162;
   border: 0;
-  margin-top: 20px;
 }
 
 .checkbox-container {
@@ -221,6 +220,16 @@
   background-color: transparent;
   border: none;
 }
+@media (max-width: 767px) {
+  .img-padding {
+    width: 107px;
+    height: 95px;
+  }
+  .img-padding-strawberries {
+    width: 88px;
+    height: 95px;
+  }
+}
 @media (min-width: 768px) {
   .your-order-heading {
     margin-top: 20px;
@@ -252,9 +261,7 @@
     width: 200px;
     height: 250px;
   }
-  .your-img-size {
-    height: 148px;
-  }
+
   .your-order-form {
     width: 360px;
     height: 331px;
@@ -265,16 +272,28 @@
     margin-bottom: 14px;
   }
   .img-padding {
-    margin-left: 14px;
+    margin-left: 10px;
+    width: 172px;
+    height: 148px;
   }
   .img-padding-strawberries {
     margin-left: 34px;
+    width: 133px;
+    height: 148px;
   }
   .checkbox-container {
     margin-left: 166px;
   }
 }
 @media (min-width: 1280px) {
+  .img-padding {
+    width: 229px;
+    height: 196px;
+  }
+  .img-padding-strawberries {
+    width: 173px;
+    height: 196px;
+  }
   .your-order-div {
     min-width: 811px;
     min-height: 831px;
