@@ -13,12 +13,7 @@ header {
   height: 50px;
 }
 
-.menu-container {
-  align-items: center;
-}
-
 .menu-link {
-  margin: 1vh 1vw;
   text-decoration: none;
   color: inherit;
 }
@@ -59,19 +54,18 @@ header {
 
 @media only screen and (min-width: 768px) {
   .menu-container {
-    font-size: 18px;
+    font-size: 14px;
     display: flex;
   }
   .header-logo {
-    font-size: 18px;
-    width: 20%;
+    font-size: 14px;
   }
   .header-cart {
     display: flex;
-    width: 40%;
+    margin-right: 32px;
   }
-  .responsive {
-    visibility: hidden;
+  .responsive-lines {
+    display: none;
   }
   .responsive-modal {
     display: none;
