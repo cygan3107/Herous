@@ -33,6 +33,7 @@
   }
 }
 
+
 .nav-link {
   padding: 16px 0;
   display: inline-block;
@@ -51,6 +52,18 @@
   .logo-header {
     margin-left: 94px;
   }
+}
+@media only screen and (max-width: 375px) {
+  .menu-container {
+    display: none;
+  }
+}
+.responsive {
+  display: none;
+}
+
+.responsive-modal {
+  display: none;
 }
 
 @media screen and (min-width: 1280px) {
@@ -82,7 +95,6 @@
     display: none;
   }
 }
-
 @media screen and (min-width: 768px) {
   .header-btn {
     margin-left: auto;
@@ -166,6 +178,7 @@
 
 @media screen and (min-width: 768px) {
   .mobile-menu {
+
     display: none;
   }
 }
