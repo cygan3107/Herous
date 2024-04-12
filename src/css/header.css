@@ -22,13 +22,13 @@
   }
 }
 
-.nav-list {
+.nav-header-list {
   display: flex;
   gap: 16px;
 }
 
 @media screen and (min-width: 1280px) {
-  .nav-list {
+  .nav-header-list {
     gap: 20px;
   }
 }
@@ -61,12 +61,6 @@
 .logo-svg {
   fill: #ae1332;
 }
-.icon-cart-mobile-menu {
-  fill: #fff;
-}
-.icon-cart {
-  fill: #ae1332;
-}
 .text-logo {
   padding: 16px 0;
   text-transform: uppercase;
@@ -75,26 +69,30 @@
   line-height: calc(18 / 14);
   letter-spacing: -0.04em;
   text-transform: uppercase;
-
   color: #ae1332;
 }
 
-.heder-btn {
+.header-btn {
   background-color: #fff;
   border-color: transparent;
 }
 
 @media screen and (max-width: 767px) {
-  .heder-btn {
+  .header-btn {
     display: none;
   }
 }
 
 @media screen and (min-width: 768px) {
-  .heder-btn {
+  .header-btn {
     margin-left: auto;
   }
 }
+
+.icon-cart {
+  fill: #ae1332;
+}
+
 .burger-btn {
   background-color: #fff;
   border-color: transparent;
@@ -108,22 +106,40 @@
 .burger {
   fill: #ae1332;
 }
-.mobile-menu {
+
+.menu-container {
+  display: flex;
+  gap: 124px;
+  flex-direction: column;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: #ae1332;
+  z-index: 999;
+  transform: translateX(100%);
+  transition: transform 250ms ease-in-out;
+}
+.is-open {
+  transform: translateX(0);
+}
+.header-mobile-menu {
+  display: flex;
+  align-items: center;
+
+  justify-content: space-between;
+  padding: 0;
   background-color: #fff;
-  border-color: transparent;
+  width: 100%;
+  padding-left: 20px;
 }
 
-@media screen and (min-width: 768px) {
-  .mobile-menu {
-    display: none;
-  }
+.menu-container .menu-toggle {
+  position: absolute;
+  right: 16px;
 }
-
-/**
-  |============================
-  | mobile menu styles 
-  |============================
-*/
 
 .menu-toggle {
   min-height: 40px;
@@ -131,7 +147,6 @@
   display: flex;
   align-items: center;
   justify-content: center;
-
   padding: 0;
   background-color: transparent;
   cursor: pointer;
@@ -146,27 +161,15 @@
   }
 }
 
-.menu-container {
-  display: flex;
-  gap: 124px;
-  flex-direction: column;
-  align-items: center;
-
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100vw;
-  height: 100vh;
-  background-color: #ae1332;
-  z-index: 999;
-
-  transform: translateX(100%);
-  transition: transform 250ms ease-in-out;
+.mobile-menu {
+  background-color: #fff;
+  border-color: transparent;
 }
 
-.menu-container .menu-toggle {
-  position: absolute;
-  right: 16px;
+@media screen and (min-width: 768px) {
+  .mobile-menu {
+    display: none;
+  }
 }
 
 .mobile-menu {
@@ -186,16 +189,7 @@
   letter-spacing: -0.04em;
   color: #fff;
 }
-.header-mobile-menu {
-  display: flex;
-  align-items: center;
 
-  justify-content: space-between;
-  padding: 0;
-  background-color: #fff;
-  width: 100%;
-  padding-left: 20px;
-}
-.is-open {
-  transform: translateX(0);
+.icon-cart-mobile-menu {
+  fill: #fff;
 }
