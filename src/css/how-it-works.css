@@ -153,9 +153,7 @@
   }
 }
 @media (min-width: 1280px) {
-  .hiw-order {
-    margin-top: 150px;
-  }
+
   .hiw-list {
     display: flex;
     flex-direction: row;
