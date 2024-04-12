@@ -72,6 +72,10 @@
   width: 40px;
   height: 40px;
 }
+.footer-social-list-item:hover,
+.footer-social-list-item:focus {
+  background: rgba(174, 19, 50, 0.1);
+}
 .footer-svg-icons {
   fill: #ae1332;
 }
