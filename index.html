@@ -17,23 +17,62 @@
     />
     
     <script type="module" crossorigin src="/Herous/commonHelpers.js"></script>
-    <link rel="stylesheet" href="/Herous/assets/index-d9add161.css">
+    <link rel="stylesheet" href="/Herous/assets/index-11f1f824.css">
   </head>
   <body>
-    <header>
-  <div class="menu-container">
-    <a class="menu-link" href="how-it-works.html">How It Works</a>
-    <a class="menu-link" href="fruits.html">Fruits</a>
-    <a class="menu-link" href="contacts.html">Contacts</a>
-  </div>
-  <div class="header-logo">
-    <img class="header-logo-svg" src="/Herous/assets/logo-c76aed5e.svg" />
-    <a class="header-logo-text">FRESH HARVEST BOX</a>
-  </div>
-  <div class="header-cart">
-    <img class="responsive" src="/Herous/assets/cart-2376bdc7.svg" />
-    <img class="responsive-lines" src="/Herous/assets/menu-tablet-a1cdd65c.svg" />
-    <img class="responsive-modal" src="/Herous/assets/x-96a11af7.svg" />
+    <header class="header">
+  <div class="container header-container">
+    <nav class="nav-header">
+      <ul class="nav-header-list">
+        <li><a class="nav-link" href="#hiw">How It Works</a></li>
+        <li><a class="nav-link" href="#fruits">Fruits</a></li>
+        <li><a class="nav-link" href="#contacts">Contacts</a></li>
+      </ul>
+    </nav>
+    <a class="logo-header" href="./index.html">
+      <svg class="logo-svg" width="16" height="16">
+        <use href="/Herous/assets/header-c3396ea0.svg#icon-vector-6"></use>
+      </svg>
+      <span class="text-logo">fresh harvest box</span>
+    </a>
+    <button class="header-btn" type="button">
+      <svg class="icon-cart" width="28" height="28">
+        <use href="/Herous/assets/header-c3396ea0.svg#icon-uil_cart"></use>
+      </svg>
+    </button>
+    <button class="burger-btn" type="button">
+      <svg class="burger" width="24" height="24">
+        <use href="/Herous/assets/header-c3396ea0.svg#icon-gg_menu-left"></use>
+      </svg>
+    </button>
+
+    <div class="menu-container is-open">
+      <div class="header-mobile-menu">
+        <a class="logo-header" href="./index.html">
+          <svg class="logo-svg" width="16" height="16">
+            <use href="/Herous/assets/header-c3396ea0.svg#icon-vector-6"></use>
+          </svg>
+          <span class="text-logo">fresh harvest box</span>
+        </a>
+        <button class="menu-x">
+          <svg class="logo-svg" width="24" height="24">
+            <use href="/Herous/assets/header-c3396ea0.svg#icon-x-1"></use>
+          </svg>
+        </button>
+      </div>
+      <div class="link-mobile-menu">
+        <ul class="mobile-menu">
+          <li><a href="#hiw" class="link">How It Works</a></li>
+          <li><a href="#fruits" class="link">Fruits</a></li>
+          <li><a href="#contacts" class="link">Contacts</a></li>
+          <li>
+            <svg class="icon-cart-mobile-menu" width="28" height="28">
+              <use href="/Herous/assets/header-c3396ea0.svg#icon-uil_cart"></use>
+            </svg>
+          </li>
+        </ul>
+      </div>
+    </div>
   </div>
 </header>
 
@@ -45,7 +84,7 @@
       is your one-stop place for a delicious fruit basket
     </h1>
     <div class="hero-button">
-      <a class="hero-button-text" href="#OrganicFruits">shop now</a>
+      <a class="hero-button-text" href="#Fruits">shop now</a>
     </div>
     <div>
       <svg
@@ -364,7 +403,7 @@
   </div>
 </section>
 
-      <section class="fruits" id="OrganicFruits">
+      <section class="fruits" id="fruits">
   <div class="fruits__container">
     <div class="fruits__first">
       <h2 class="fruits__title">Organic Fruits</h2>
