@@ -3,8 +3,9 @@
 *::before {
   box-sizing: border-box;
 }
+.footer{background-color: #fff;}
 .footer-container {
-  background-color: #fff;
+  
   display: flex;
   /* width: 375px;
   height: 626px; */

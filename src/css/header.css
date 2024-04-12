@@ -1,7 +1,7 @@
 .header {
   position: fixed;
   z-index: 50;
-  max-width: 100%;
+  width: 100%;
   background-color: #fff;
 }
 .header-container {
@@ -10,11 +10,6 @@
   justify-content: space-between;
 }
 
-@media screen and (min-width: 768px) {
-  .header-container {
-    justify-content: left;
-  }
-}
 
 @media screen and (max-width: 767px) {
   .nav-header {
