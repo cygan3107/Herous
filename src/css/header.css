@@ -1,7 +1,7 @@
 .header {
   position: fixed;
   z-index: 50;
-  width: 100%;
+  max-width: 100%;
   background-color: #fff;
 }
 .header-container {

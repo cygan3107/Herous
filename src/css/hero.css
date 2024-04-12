@@ -167,7 +167,6 @@ source {
     font-size: 28px;
   }
 }
-
 .hero-button::after {
   content: '';
   background-image: url(../img/mobileyoung.png);

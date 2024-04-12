@@ -30,7 +30,7 @@
   display: none;
 }
 .img_contacts {
-  max-width: 335px;
+  width: 335px;
   height: 476px;
   border-radius: 20px;
 }
@@ -134,7 +134,7 @@
     outline: none;
   }
   .melon {
-    width: 334px;
+    width: 344px;
     height: 480px;
     border-radius: 20px;
   }
