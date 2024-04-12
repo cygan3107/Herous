@@ -126,6 +126,7 @@
   transform: translateX(0);
 }
 .header-mobile-menu {
+  /* position: relative; */
   display: flex;
   align-items: center;
 
@@ -136,12 +137,9 @@
   padding-left: 20px;
 }
 
-.menu-container .menu-toggle {
+.menu-x {
   position: absolute;
   right: 16px;
-}
-
-.menu-toggle {
   min-height: 40px;
   min-width: 40px;
   display: flex;
@@ -156,7 +154,7 @@
 }
 
 @media (min-width: 768px) {
-  .menu-toggle {
+  .menu-x {
     display: none;
   }
 }
