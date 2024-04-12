@@ -33,7 +33,6 @@
   }
 }
 
-
 .nav-link {
   padding: 16px 0;
   display: inline-block;
@@ -134,9 +133,12 @@
   transform: translateX(100%);
   transition: transform 250ms ease-in-out;
 }
-.is-open {
-  transform: translateX(0);
+@media screen and (max-width: 767px) {
+  .is-open {
+    transform: translateX(0);
+  }
 }
+
 .header-mobile-menu {
   /* position: relative; */
   display: flex;
@@ -178,7 +180,6 @@
 
 @media screen and (min-width: 768px) {
   .mobile-menu {
-
     display: none;
   }
 }
